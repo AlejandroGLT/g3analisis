@@ -1,5 +1,3 @@
 <?php
-
-include_once("dashboard.php");
-
+header('Location: page/home/');
 ?>
