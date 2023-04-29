@@ -17,10 +17,17 @@ class DB
         try {
             $servidor = $this->variables->servidor;
             $baseDatos = $this->variables->baseDatos;
-            $usuario = $this->variables->usuario;
-            $clave = $this->variables->clave;
+            $username = $this->variables->usuario;
+            $password = $this->variables->clave;
+            $port = $this->variables->port;
+
+            $dsn = "mysql:host=$servidor;  port=$port; dbname=$baseDatos";
+            $options = [];
+
+
+
             //try to connection from database
-            $connect = new PDO("mysql:host=$servidor;dbname=$baseDatos", $usuario, $clave);
+            $connect = new PDO($dsn, $username, $password, $options);
             $this->connect = $connect;
         } catch (Exception $th) {
             //    echo $th->getMessage();
