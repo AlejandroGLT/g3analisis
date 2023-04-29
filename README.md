@@ -31,3 +31,10 @@ El grupo 4 esta esperando a ver que dice Richard si seguimos usando lo mismo que
 * Alejandro: generar roles para dashboard
 * Veliz: generar posiciones para dashboard
 * Alex: revisión
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Actualización de  bitacora   para la conexcion del DASHBOARD
+
+## Nota 
+Tomar en cuenta que el puerto  utilizados  para levantar el MySQL es el  33065  // revisar puerto configurado  en su  Xamp para el buen  funcionamiento  y realizar la modificación en la carpeta de variables PHP.
+
