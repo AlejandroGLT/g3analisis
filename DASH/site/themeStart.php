@@ -6,6 +6,7 @@
     <div class="container-fluid">
         <div class="row">
             <?php include("nav.html") ?>
-            <main class="main col">
+            <main class="main col-12 col-sm-10 ">
                 <div class="row justify-content-center align-content-center text-center">
-                    <div class="columna col-lg-12">
+                    <div class="columna col-md-12">
+                        
