@@ -20,3 +20,14 @@ El grupo 1 dice que ya tiene en un 80% el login dicen que estan esperando el das
 El grupo 2 dice que no tiene los scripts de la base de datos porque esta en el servidor, y el servidor es el que dijo Richard hoy que lo tenía que ver, para poder avanzar quedamos en que iban a hacer la base de datos local la iban a subir al git y van a pasar los script para que nosotros probemos local
 
 El grupo 4 esta esperando a ver que dice Richard si seguimos usando lo mismo que mando Basualdo o va a cambiar
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+29/04 
+
+1. Se agregaron carpeta de roles de usuario y posiciones para completar las pestañas del dashboard
+
+2. Distribución de tareas:
+* Alejandro: generar roles para dashboard
+* Veliz: generar posiciones para dashboard
+* Alex: revisión
