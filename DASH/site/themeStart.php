@@ -1,8 +1,15 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['email'])){
+        header('Location: ../../index.php');
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="es">
-<?php include("head.php") ?>
+<?php include("head.html") ?>
 <body>
-    <?php include("navbar.html") ?>
+    <?php include("navbar.php") ?>
     <div class="container-fluid">
         <div class="row">
             <?php include("nav.html") ?>

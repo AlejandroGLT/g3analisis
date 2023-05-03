@@ -7,7 +7,6 @@ class Variables
     public $usuario = "root"; //user
     public $clave = ""; //password
     public $port = "3306"; //puerto
-    public $url = "http://localhost:8080/g3analisis/DASH";
 
     public function function_alert_error($message, $error)
     {

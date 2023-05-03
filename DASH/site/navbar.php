@@ -18,9 +18,11 @@
                     <a href="#" class="px-3 text-light perfil dropdown-toggle" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="person">
                         <i class="fas fa-user-circle user"></i>
+                        <?php echo $_SESSION['email']; ?>
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbar-dropdown">
-                        <a class="dropdown-item menuperfil cerrar" href="#"><i class="fas fa-sign-out-alt m-1"></i>Salir
+                        <a class="dropdown-item menuperfil cerrar" href="../../logout.php"><i
+                                class="fas fa-sign-out-alt m-1"></i>Salir
                         </a>
                     </div>
                 </li>
